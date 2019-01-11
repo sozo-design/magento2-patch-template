@@ -1,0 +1,14 @@
+{
+  "name": "sozodesign/magento2-patch-module-modulename-ticket",
+  "description": "Fixes the xxx issue in Magento 2.x.x",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "cweagans/composer-patches": "~1.0"
+  },
+  "extra": {
+    "patches-file": "patches/composer.patches.json",
+    "composer-exit-on-patch-failure": true
+  }
+}
